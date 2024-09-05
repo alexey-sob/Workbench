@@ -36,7 +36,7 @@ Scenario: The user can input the header and details then clicks save button
 	Then The purchase requisition success message is displayed
 
 Scenario: The user can submit the PR for Review and Approval
-	When I navigate into the Purchase Requisitions
+	When I navigate into the Purchase Requisitions screen
 	Then The screen title is 'Local Workbench — Purchase Requisitions'
 	When I click on button by id 'New'
 	And I input 'Automation test' into the text box with id 'GeneralFields_Description'
@@ -59,7 +59,7 @@ Scenario: The user can submit the PR for Review and Approval
 	Then The screen title is 'Local Workbench — Purchase Requisitions'
 
 Scenario: Verify error message if Purchase Requisition is incomplete. And check user is able to assign a person
-	When I navigate into the Purchase Requisitions
+	When I navigate into the Purchase Requisitions screen
 	Then The screen title is 'Local Workbench — Purchase Requisitions'
 	When I click on button by id 'New'
 	And I input '4112' into the text box with id 'GeneralFields_Job'
