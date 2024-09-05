@@ -9,7 +9,7 @@ Background:
 	Given I am at the Workbench login screen
 	And I log in as 'wbadmin' user
 
-Scenario: The user can navigate to the Create Purchase Requisition screen 
+Scenario: The user can navigate to the Create Purchase Requisitions screen 
 	When I click on button by id 'sidebar-collapse'
 	When I click on button by id 'Purchasing'
 	And I click on button by id 'Purchase_Requisitions'
