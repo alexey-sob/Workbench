@@ -17,7 +17,7 @@ Scenario: The user can navigate to the Create Purchase Requisitions screen
 	Then The screen title is 'Local Workbench — Purchase Requisitions'
 
 Scenario: The user can input the header and details then clicks save button
-	When I navigate into the Purchase Requisitions
+	When I navigate into the Purchase Requisitions screen
 	Then The screen title is 'Local Workbench — Purchase Requisitions'
 	When I click on button by id 'New'
 	And I input 'Automation test' into the text box with id 'GeneralFields_Description'

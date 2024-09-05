@@ -36,7 +36,7 @@ namespace Workbench.Features
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "CreateNewPurchaseRequisition", "Login into the Workbench system using\r\ncredentials, then create and verify \r\nPurc" +
-                    "hase Requisition using specified \r\narguments. (4 test cases provided)", ProgrammingLanguage.CSharp, ((string[])(null)));
+                    "hase Requisition using specified \r\narguments. (4 Test cases provided.)", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -87,12 +87,12 @@ namespace Workbench.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("The user can navigate to the Create Purchase Requisition screen")]
-        public virtual void TheUserCanNavigateToTheCreatePurchaseRequisitionScreen()
+        [NUnit.Framework.DescriptionAttribute("The user can navigate to the Create Purchase Requisitions screen")]
+        public virtual void TheUserCanNavigateToTheCreatePurchaseRequisitionsScreen()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The user can navigate to the Create Purchase Requisition screen", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The user can navigate to the Create Purchase Requisitions screen", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 12
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -175,7 +175,7 @@ this.FeatureBackground();
  testRunner.When("I click on button by id \'New\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 23
- testRunner.And("I input \'Testing\' into the text box with id \'GeneralFields_Description\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I input \'Automation test\' into the text box with id \'GeneralFields_Description\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 24
  testRunner.And("I input \'4112\' into the text box with id \'GeneralFields_Job\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -262,7 +262,7 @@ this.FeatureBackground();
  testRunner.When("I click on button by id \'New\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 42
- testRunner.And("I input \'Testing\' into the text box with id \'GeneralFields_Description\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I input \'Automation test\' into the text box with id \'GeneralFields_Description\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 43
  testRunner.And("I input \'4112\' into the text box with id \'GeneralFields_Job\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -407,7 +407,7 @@ this.FeatureBackground();
  testRunner.When("I click on button by id \'generalSection\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 79
- testRunner.And("I input \'Testing\' into the text box with id \'GeneralFields_Description\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I input \'Automation test\' into the text box with id \'GeneralFields_Description\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 80
  testRunner.And("I click on button by id \'Save\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

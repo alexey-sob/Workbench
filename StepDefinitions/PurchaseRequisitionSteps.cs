@@ -84,8 +84,8 @@ namespace Workbench.StepDefinitions
             Thread.Sleep(2000);
         } 
 
-        [When(@"I navigate into the Purchase Requisitions")]
-        public void WhenIEnterSampleDetailsIntoPR()
+        [When(@"I navigate into the Purchase Requisitions screen")]
+        public void WhenINavigateIntoThePurchaseRequisitionsScreen()
         {
             WhenIClickOnButtonById("sidebar-collapse");
             WhenIClickOnButtonById("Purchasing");
